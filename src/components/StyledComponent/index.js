@@ -14,6 +14,6 @@ export const TextArea = styled.textarea`
   border-radius: 8px;
   border: solid 1px #334155;
   font-weight: ${props => (props.bold ? 'bold' : 'normal')};
-  text-decoration: ${props => (props.underline ? 'underline' : 'none')};;
+  text-decoration: ${props => (props.underline ? 'underline' : 'normal')};;
   font-style: ${props => (props.italic ? 'italic' : 'normal')};
 `
