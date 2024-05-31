@@ -38,7 +38,7 @@ class TextEditor extends Component {
             <ul className="button-container">
               <li>
                 <IconsButton
-                  active={isbold}
+                  active={isUnderline}
                   data-testid="underline"
                   onClick={this.updateUnderline}
                 >
@@ -48,7 +48,7 @@ class TextEditor extends Component {
               <li>
                 <IconsButton
                   data-testid="bold"
-                  active={isItalic}
+                  active={isbold}
                   onClick={this.updateBold}
                 >
                   <VscBold size={25} />
@@ -57,7 +57,7 @@ class TextEditor extends Component {
               <li>
                 <IconsButton
                   data-testid="italic"
-                  active={isUnderline}
+                  active={isItalic}
                   onClick={this.updateItalic}
                 >
                   <GoItalic size={25} />
